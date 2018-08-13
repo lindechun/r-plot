@@ -40,16 +40,16 @@ Please type `r-plot` in command line directly to have the latest list.
 
 ```
 #### Dots
-${filename} point3d
+point3d
 
 #### Histogram
-${filename} histogram
+histogram
 
 #### Areaplot
-${filename} areaplot
+areaplot
 
 #### Pie
-${filename} pie
+pie
 ```
 
 ### Basic test data set
