@@ -1,0 +1,21 @@
+Species	Abun	Percent	Sample
+Escherichia coli	10433431	0.861909083211	meta_61
+Shigella dysenteriae	764750	0.0631762429239	meta_61
+Shigella flexneri	170616	0.0140946425142	meta_61
+Shigella sonnei	133835	0.0110561523004	meta_61
+Escherichia fergusonii	124529	0.0102873806539	meta_61
+Shigella boydii	123116	0.0101706522704	meta_61
+Klebsiella pneumoniae	63443	0.00524104659016	meta_61
+Salmonella enterica	59676	0.00492985351125	meta_61
+Shimwellia blattae	20742	0.00171350327653	meta_61
+Enterobacter cloacae	19722	0.00162924074919	meta_61
+Escherichia coli	9664360	0.890550007487	meta-61_seq50
+Shigella dysenteriae	503284	0.0463765391571	meta-61_seq50
+Shigella sonnei	112892	0.0104027552208	meta-61_seq50
+Shigella flexneri	104030	0.00958614096318	meta-61_seq50
+Shigella boydii	89694	0.00826510936798	meta-61_seq50
+Escherichia fergusonii	83174	0.00766430537798	meta-61_seq50
+Klebsiella pneumoniae	81701	0.00752857159312	meta-61_seq50
+Salmonella enterica	54334	0.00500676134858	meta-61_seq50
+Shimwellia blattae	17585	0.00162041996383	meta-61_seq50
+Salmonella sp. 14	13401	0.0012348733543	meta-61_seq50
