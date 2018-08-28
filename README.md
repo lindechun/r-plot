@@ -38,8 +38,17 @@ $ R
 Please type `r-plot` in command line directly to have the latest list.
 
 ```
+#### Bars
+barplot
+colorLegend
+
 #### Dots
+point
 point3d
+pca
+
+#### Boxplot
+boxplot
 
 #### Histogram
 histogram
@@ -47,8 +56,23 @@ histogram
 #### Areaplot
 areaplot
 
+#### Density
+density
+density2d
+
+#### Cluster
+hcluster
+pheatmap
+
 #### Pie
 pie
+
+#### Venn
+venn
+
+#### Other
+enrichmentPlot
+png2eps
 ```
 
 ### Basic test data set
@@ -57,9 +81,9 @@ See `/your/path/to/r-plot/data/` for test data set.
 
 ### Usage
 
-```r-plot [pie/point3d/histogram/areaplot] [options]```
+```r-plot [pie/point3d/histogram/areaplot/../..] [options]```
 
-See `/your/path/to/r-plot/example/` for example of 4 plot classes.
+See `/your/path/to/r-plot/test/` for example of 4 plot classes.
 
 ### Basic layouts and themes
 

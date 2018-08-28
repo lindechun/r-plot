@@ -1,0 +1,33 @@
+cyl	name	sd	mpg
+8	Cadillac Fleetwood	NA	10.4
+8	Lincoln Continental	NA	10.4
+8	Camaro Z28	NA	13.3
+8	Duster 360	NA	14.3
+8	Chrysler Imperial	NA	14.7
+8	Maserati Bora	NA	15
+8	Merc 450SLC	NA	15.2
+8	AMC Javelin	NA	15.2
+8	Dodge Challenger	NA	15.5
+8	Ford Pantera L	NA	15.8
+8	Merc 450SE	NA	16.4
+8	Merc 450SL	NA	17.3
+8	Hornet Sportabout	NA	18.7
+8	Pontiac Firebird	NA	19.2
+6	Merc 280C	NA	17.8
+6	Valiant	NA	18.1
+6	Merc 280	NA	19.2
+6	Ferrari Dino	NA	19.7
+6	Mazda RX4	NA	21
+6	Mazda RX4 Wag	NA	21
+6	Hornet 4 Drive	NA	21.4
+4	Volvo 142E	NA	21.4
+4	Toyota Corona	NA	21.5
+4	Datsun 710	NA	22.8
+4	Merc 230	NA	22.8
+4	Merc 240D	NA	24.4
+4	Porsche 914-2	NA	26
+4	Fiat X1-9	NA	27.3
+4	Honda Civic	NA	30.4
+4	Lotus Europa	NA	30.4
+4	Fiat 128	NA	32.4
+4	Toyota Corolla	NA	33.9

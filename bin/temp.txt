@@ -1,0 +1,27 @@
+坐标轴值的扩充
+expand    A numeric vector of length two giving multiplicative and additive expansion constants. These constants ensure that the data is placed some distance away from the axes. The defaults are c(0.05, 0) for continuous variables, and c(0, 0.6) for discrete variables.
+
+
+需要新增:bar图，如果是fill，则排序需使用柱子中某一个成分的占比大小来排序
+bar需要修改：fill和stack图，排序问题设计到缺失值的处理，特别是微生物数据
+
+还需要修改的：
+barplot 负值的textt添加位置不准(已经解决，通过分开添加)；
+scatter2d中例子中-R TRUE,-X TRUE那个命令theme模仿sthda修改theme
+boxplot 增加alpha variable，alpha level
+
+barplot负值排序解决：添加代码:
+        919 data_m_sort_temp10 <- data_m %>% dplyr::group_by($variable) %>% dplyr::summarise(mean1=mean($value)) %>% dplyr::arrange(${sort_var}mean1)
+        946   data_m_sort_temp10 <- data_m %>% dplyr::group_by($variable) %>% dplyr::summarise(mean1=mean($value)) %>% dplyr::arrange(${sort_var}mean1)
+        947   data_m\$$variable <- ordered(data_m\$$variable,unique(as.character(data_m_sort_temp10\$${variable})))
+
+histogram的拟合曲线参考网址:
+    https://stackoverflow.com/questions/27611438/density-curve-overlay-on-histogram-where-vertical-axis-is-frequency-aka-count
+    https://stackoverflow.com/questions/27661852/adding-a-density-line-to-a-histogram-with-count-data-in-ggplot2
+    https://stackoverflow.com/questions/32423372/r-add-normal-fits-to-grouped-histograms-in-ggplot2
+
+sp_pheatmap:参数-G 丢失
+
+维恩图 区域的数字大小随区域面积大小而变:https://stackoverflow.com/questions/24736637/r-color-overlaps-in-venn-diagram-by-size-of-overlap
+
+要使用plotly画饼图，还需安装webshot::install_phantomjs()

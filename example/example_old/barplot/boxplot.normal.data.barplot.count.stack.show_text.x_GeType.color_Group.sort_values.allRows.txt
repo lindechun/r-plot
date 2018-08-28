@@ -1,0 +1,10 @@
+Group	GeType	value
+2cell	A	18
+2cell	B	18
+2cell	C	18
+4cell	A	18
+4cell	B	18
+4cell	C	18
+zygote	A	18
+zygote	B	18
+zygote	C	18

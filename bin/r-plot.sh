@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# set -x 
+
 filename=`basename $0`
 
 usage()
@@ -17,8 +19,17 @@ researchers focus more on data rather than technology.
 
 Currently, the following types of plot are supported.
 
+#### Bars
+${filename} barplot
+${filename} colorLegend
+
 #### Dots
+${filename} point
 ${filename} point3d
+${filename} pca
+
+#### Boxplot
+${filename} boxplot
 
 #### Histogram
 ${filename} histogram
@@ -26,8 +37,24 @@ ${filename} histogram
 #### Areaplot
 ${filename} areaplot
 
+#### Density
+${filename} density
+${filename} density2d
+
+#### Cluster
+${filename} hcluster
+
+${filename} pheatmap
+
 #### Pie
 ${filename} pie
+
+#### Venn
+${filename} venn
+
+#### Other
+${filename} enrichmentPlot
+${filename} png2eps
 
 EOF
 }

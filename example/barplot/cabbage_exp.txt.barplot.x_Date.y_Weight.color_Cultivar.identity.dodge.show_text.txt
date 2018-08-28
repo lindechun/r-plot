@@ -1,0 +1,7 @@
+Cultivar	Date	sd	Weight
+c39	d16	NA	3.18
+c39	d20	NA	2.8
+c39	d21	NA	2.74
+c52	d16	NA	2.26
+c52	d20	NA	3.11
+c52	d21	NA	1.47

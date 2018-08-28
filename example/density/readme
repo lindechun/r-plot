@@ -1,0 +1,3 @@
+s-plot density -f ../../data/density_x_numtype.txt -m TRUE -a pctOAC -d NoP -c Age -o ./ -C "'#00AFBB','#E7B800'" -P top -w 6 -u 5 -D identity -Z TRUE -F TRUE -i Age
+这条命令的fill没解决,已解决，但不支持alpha_variable
+https://stackoverflow.com/questions/13213451/smoothing-in-ggplot
