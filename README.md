@@ -2,9 +2,10 @@
 
 ### Introduction
 
-A simple plot library based on `bash`, `R` mainly `ggplot2` to make
+A new and more powerful visualization tool based on [`s-plot`](https://github.com/Tong-Chen/s-plot), which  based on `bash`, `R` mainly `ggplot2` to make
 the plot easily and flexibly, Developed by Dechun Lin.
 This lists the basic information for using [`r-plot`](https://github.com/lindechun/r-plot).
+
 
 ### r-plot Installation Notes
 
