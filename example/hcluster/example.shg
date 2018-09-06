@@ -10,4 +10,4 @@ plot(hc,hang =-1)
 
 ## 243页
 !
-r-plot hcluster_gg -Q hcluster_gg.col_anno.data  -f hcluster_gg.data  -H TRUE
+s-plot hcluster_gg -Q hcluster_gg.col_anno.data  -f hcluster_gg.data  -H TRUE
