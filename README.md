@@ -95,7 +95,7 @@ See `/your/path/to/r-plot/example/` for example of 15 plot classes.
 
   Default, width and height is automatic set-up, one can give `number` to `-w` to change it, give `number` to `-u` to change height. Give `number` to `-r` to alter resolution instead of using `300` as default.
 
-  8 picture formats are supported, `eps/ps`, `tex` (pictex), `pdf`, `jpeg`, `tiff`, `bmp`, `svg` and `wmf`, with `png` as default. Give any mentioned string to `-E` to change output format.
+  8 picture formats are supported, `eps/ps`, `tex` (pictex), `pdf`, `jpeg`, `tiff`, `bmp`, `svg` and `wmf`, with `pdf` as default. Give any mentioned string to `-E` to change output format.
 
 * Legend position
 
