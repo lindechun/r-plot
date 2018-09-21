@@ -39,6 +39,9 @@ $ R
 Please type `r-plot` in command line directly to have the latest list.
 
 ```
+#### Lines
+line
+
 #### Bars
 barplot
 colorLegend
@@ -84,7 +87,7 @@ See `/your/path/to/r-plot/data/` for test data set.
 
 ```r-plot [pie/point3d/histogram/areaplot/../..] [options]```
 
-See `/your/path/to/r-plot/test/` for example of 4 plot classes.
+See `/your/path/to/r-plot/example/` for example of 15 plot classes.
 
 ### Basic layouts and themes
 
