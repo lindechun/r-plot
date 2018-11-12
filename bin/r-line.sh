@@ -201,8 +201,7 @@ ${txtbld}OPTIONS${txtrst}:
         be equal to the number of lines. example
         "'red','pink','blue','cyan','green','yellow'" or
         "rgb(255/255,0/255,0/255),rgb(255/255,0/255,255/255),rgb(0/255,0/255,255/255),
-        rgb(0/255,255/255,255/255),rgb(0/255,255/255,0/255),rgb(255/255,255/255,0/255)"
-        ${txtrst}]
+        rgb(0/255,255/255,255/255),rgb(0/255,255/255,0/255),rgb(255/255,255/255,0/255)"${txtrst}]
 
 <facet>
     -G  facet grid plots by given column. This is used to put multiple plot in one picture. Used when -m TRUE or -Q be seted, normally a string <set>
@@ -252,8 +251,7 @@ ${txtbld}OPTIONS${txtrst}:
     -k  The smooth method you want to use. Only be used when -J TRUE.
         [${txtred} Default auto. eg. lm, glm, gam, loess,rlm.
         For datasets with n < 1000 default is 'loess'.
-        For datasets with 1000 or more observations defaults to 'gam'.
-        ${txtrst}]
+        For datasets with 1000 or more observations defaults to 'gam'.${txtrst}]
 
 <<error bar>>
     -Z  Whether show error-bar. Default FALSE. Be used when -I dodge and -D identity.

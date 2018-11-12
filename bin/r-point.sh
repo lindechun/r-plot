@@ -128,7 +128,7 @@ ${txtbld}OPTIONS${txtrst}:
     -e  Execute or not[${bldred}Default TRUE${txtrst}]
     -o  Path of output.[Default path of data file(-f), Optinal]
 
-<self-scatterplot2_plot>
+<self-point_plot>
 
 <<add label>>
     -p  The variable of Label of points.
@@ -176,7 +176,7 @@ ${txtbld}OPTIONS${txtrst}:
     -O  linetype for vline or hline. Only be used when -K or -k is seted.give the followding dashed[Default], solid, dotted, dotdash, longdash, twodash.${txtrst}
 
 example:
-    r-plot scatterplot2 -f ../../data/mtcars.txt -m TRUE -A TRUE -a name -d mpg -c cyl -o ./ -b 90 -p mpg
+    r-plot point -f ../../data/mtcars.txt -m TRUE -A TRUE -a name -d mpg -c cyl -o ./ -b 90 -p mpg
 EOF
 }
 

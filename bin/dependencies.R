@@ -1,6 +1,6 @@
 #Install the required packages of plot tools if this is your first time run s-plot
 source(paste(getwd(),'/rFunction.R',sep=""))
-installp(c("ggplot2","reshape2","dplyr","scales","ggbeeswarm","grid","plyr","amap","gplots","cluster","extrafont","fBasics","ggrepel","data.table","ggfortify","pheatmap","psych","fpc","car","ggbeeswarm","hexbin","gclus","UpSetR","VennDiagram",'ggpubr','cowplot'))
+installp(c("ggplot2","reshape2","dplyr","scales","ggbeeswarm","grid","plyr","amap","gplots","cluster","extrafont","fBasics","ggrepel","data.table","ggfortify","pheatmap","psych","fpc","car","ggbeeswarm","hexbin","gclus","UpSetR","VennDiagram",'ggpubr','cowplot','webshot'))
 
 ## packages of other tools
 installp(c("fBasics",'naturalsort'))
