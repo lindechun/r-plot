@@ -1,1 +1,11 @@
-State	Abb	Region	Change
+Region	Abb	Change
+South	SC	15.3
+South	FL	17.6
+South	GA	18.3
+South	NC	18.5
+South	TX	20.6
+West	CO	16.9
+West	ID	21.1
+West	UT	23.8
+West	AZ	24.6
+West	NV	35.1
