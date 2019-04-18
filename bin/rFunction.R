@@ -71,6 +71,8 @@ theme_classic2 <- function(...) {
     plot.title=element_text(size=15,margin=unit(c(0.5,0.5,0.5,0.5),'cm'),hjust=0.5),
     axis.title =element_text(size=14,vjust = 0.1),
     axis.text=element_text(family="Times",size=12,color='black',margin=unit(0.8,"lines")),
+    #axis.text.y=element_text(family="Times",size=8,color='black',margin=margin(8,0,3,0,"pt")),
+    #axis.text.x=element_text(family="Times",size=12,color='black',margin=margin(8,0,3,0,"pt")),
     legend.background = element_blank(),
     legend.text=element_text(size=10,color='black',family = 'Times', hjust = 0),
     legend.title=element_text(size = 11,color='black',family='Times', hjust = 0),

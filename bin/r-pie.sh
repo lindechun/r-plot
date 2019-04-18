@@ -399,11 +399,11 @@ order_and_subset <- function(dat){
 
         dat[start:nrow(dat),]\$$color_variable <- rep("Other",nrow(dat[start:nrow(dat),]))
 
-        dat <- dat %>% group_by_(.dots=list('$color_variable')) %>% summarise($y_value=sum($y_value))
+        dat <- dat %>% group_by(.dots=list('$color_variable')) %>% summarise($y_value=sum($y_value))
 
     }else if($top_record < 1 & $top_record > 0){
         dat[dat\$$y_value < $top_record,]\$$color_variable <- rep("Other",nrow(dat[dat\$$y_value < $top_record,]))
-        dat <- dat %>% group_by_(.dots=list('$color_variable')) %>% summarise($y_value=sum($y_value))
+        dat <- dat %>% group_by(.dots=list('$color_variable')) %>% summarise($y_value=sum($y_value))
     }
     if($top_record != -1){
     ## 重新排序，并把Other放在最后
@@ -540,9 +540,9 @@ if ("$method" == "ggplot"){
                    legend=list(orientation="v"))
 
         if (sample == ""){
-            export(p,file='$output/$(basename $file)${mid}.${ext}')
+            orca(p,file='$output/$(basename $file)${mid}.${ext}')
         }else{
-            export(p,file=paste('$output/$(basename $file)${mid}.${ext}.',sample,'.pdf',sep=""))
+            orca(p,file=paste('$output/$(basename $file)${mid}.${ext}.',sample,'.pdf',sep=""))
         }
     }
 
