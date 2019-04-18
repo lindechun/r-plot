@@ -27,7 +27,7 @@ And then, install required modules.
 
 ```
 $ cd /your/path/to/r-plot/bin/
-$ Rscript dependencies.r
+$ Rscript dependencies.R
 $ R
 > webshot::install_phantomjs()
 > q()
