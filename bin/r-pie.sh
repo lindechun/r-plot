@@ -540,9 +540,9 @@ if ("$method" == "ggplot"){
                    legend=list(orientation="v"))
 
         if (sample == ""){
-            orca(p,file='$output/$(basename $file)${mid}.${ext}')
+            export(p,file='$output/$(basename $file)${mid}.${ext}')
         }else{
-            orca(p,file=paste('$output/$(basename $file)${mid}.${ext}.',sample,'.pdf',sep=""))
+            export(p,file=paste('$output/$(basename $file)${mid}.${ext}.',sample,'.pdf',sep=""))
         }
     }
 
