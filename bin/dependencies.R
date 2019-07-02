@@ -15,7 +15,8 @@ installp("splines")
 installp("MASS")
 
 ## pie
-installp("plotly")
+packageurl <- "https://cran.r-project.org/src/contrib/Archive/plotly/plotly_4.7.1.tar.gz"
+install.packages(packageurl, repos=NULL, type="source")
 
 ## point3d
 installp("scatterplot3d")
